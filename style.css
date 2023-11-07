@@ -1,0 +1,125 @@
+/* Generally */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*-------header_start--------*/
+header {
+    width: 100%;
+    background-color: #232946;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+h3 {
+    color: #fffffe;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #eebbc3;
+}
+
+/*-------header_end--------*/
+
+/*-------hero_start--------*/
+.hero {
+    display: flex;
+    align-items: center;
+    background-image: url('img/cover1.png');
+    background-size: cover;
+    --webkit-background-filter: blur(6px);
+    color: white;
+    padding: 20px;
+}
+
+.hero-image {
+    flex: 1;
+    max-width: 20%;
+    padding: 20px;
+}
+
+.hero-image img {
+    width: 250px;
+    height: 300px;
+    background-size: cover;
+    border: 5px solid white;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.hero-content {
+    flex: 1;
+    margin-left: 40px;
+    padding: 40px;
+    max-width: 100%;
+    opacity: 0.6;
+    background-color: #fffffe;
+}
+
+.hero-content h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    width: 100%;
+    color: #121629;
+}
+
+.hero-content p {
+    font-size: 18px;
+    color: #121629;
+}
+
+/*-------hero-end--------*/
+
+/*-------Footer-start--------*/
+/* Reset default list styling */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Style the social media container */
+.social-media {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Style the social media icons */
+.social-media ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.social-media a {
+    text-decoration: none;
+    color: #333;
+    font-size: 24px;
+}
+
+/* Style individual social media icons (Font Awesome icons) */
+.social-media i {
+    transition: color 0.3s;
+}
+
+.social-media i:hover {
+    color: #1877f2;
+    /* Change color on hover (e.g., Facebook blue) */
+}
+
+/*-------Footer-end--------*/
